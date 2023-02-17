@@ -1,0 +1,46 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #1361c8;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header_Logo {
+  object-fit: contain;
+  width: 60px;
+  margin: 1rem 1rem;
+}
+
+.header_Profile {
+  color: white;
+  margin: 1rem 1rem;
+}
+
+.header_Search {
+  display: flex;
+  flex: 1;
+  color: white;
+}
+
+.header_SearchIcon {
+  margin-left: .5rem
+}
+
+.header_SearchInput {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.header_Cart {
+  color: white;
+
+  margin: 1rem 1rem;
+}
+
+.header_Nav {
+  display: flex;
+  justify-content: space-around;
+}

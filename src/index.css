@@ -1,0 +1,7 @@
+html,
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0px;
+  margin: 0px;
+}
