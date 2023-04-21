@@ -3,6 +3,7 @@ import SearchIcon from '@mui/icons-material/Search'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import AccountBoxIcon from '@mui/icons-material/AccountBox'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -16,7 +17,9 @@ function Header() {
         <input className='header_SearchInput' type='text' />
         <SearchIcon className='header_SearchIcon' />
       </div>
-      <AccountBoxIcon className='header_Profile' />
+      <Link to='/login'>
+        <AccountBoxIcon className='header_Profile' />
+      </Link>
       <ShoppingCartIcon className='header_Cart' />
     </div>
   )
